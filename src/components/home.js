@@ -9,15 +9,15 @@ function Home({user}) {
 
   let navigate = useNavigate()
 
-  function windowReload() {
-    const reloadCount = sessionStorage.getItem('reloadCount');
-    if(reloadCount < 2) {
-      sessionStorage.setItem('reloadCount', String(reloadCount + 1));
-      window.location.reload();
-    } else {
-      sessionStorage.removeItem('reloadCount');
-    }
-  }
+//   function windowReload() {
+//     const reloadCount = sessionStorage.getItem('reloadCount');
+//     if(reloadCount < 2) {
+//       sessionStorage.setItem('reloadCount', String(reloadCount + 1));
+//       window.location.reload();
+//     } else {
+//       sessionStorage.removeItem('reloadCount');
+//     }
+//   }
 
 
   // let context = useContext(SignInContext)
@@ -43,13 +43,13 @@ function Home({user}) {
 
   function editProfile() {
     navigate(`/profile`) 
-    window.location.reload();
+//     window.location.reload();
   }
   
 
   return <>
     <div className="container">
-      <div className='d-flex flex-row align-item-center justify-content-center m-5' onLoad={()=> windowReload()}>
+      <div className='d-flex flex-row align-item-center justify-content-center m-5' >
       <div className="card border-0 shadow rounded-3 mt-5 w-100 d-flex flex-column align-items-center justify-content-center">
         <h2 className='mt-3' onLoad={()=> windowReload()}>Welcome {uD[0].name}</h2>
         <Image src={uD[0].picture} roundedCircle width="100"></Image>
@@ -77,19 +77,5 @@ function Home({user}) {
     </div>
   </>
 }
-  // <div className="col-lg-4">
-  //           <div className="card mb-4">
-  //             <div className="card-body text-center">
-  //               <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava3.webp" alt="avatar"
-  //                 className="rounded-circle img-fluid" style={{width: '150px'}}/>
-  //               <h5 className="my-3">John Smith</h5>
-  //               <p className="text-muted mb-1">Full Stack Developer</p>
-  //               <p className="text-muted mb-4">Bay Area, San Francisco, CA</p>
-  //               <div className="d-flex justify-content-center mb-2">
-  //                 <button type="button" className="btn btn-primary">Follow</button>
-  //                 <button type="button" className="btn btn-outline-primary ms-1">Message</button>
-  //               </div>
-  //             </div>
-  //           </div>
 
 export default Home
