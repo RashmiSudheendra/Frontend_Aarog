@@ -74,6 +74,8 @@ function Signin() {
   })
   }
 
+  console.log(user);
+  
 const err = (error) => {
 console.log(error)
 }
