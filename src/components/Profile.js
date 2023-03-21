@@ -14,6 +14,7 @@ function Profile({detailuser}) {
   console.log(detailuser[0].email)
 
   function updateUser() {
+    navigate(`/home`)
     console.log('Entering into update user')
     const userinformation = {
       name: document.getElementById("userName").value,
