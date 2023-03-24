@@ -48,12 +48,12 @@ function Home() {
     <div className="container"> 
       <div className='d-flex flex-row align-item-center justify-content-center m-5'>
         <div className="card border-0 shadow rounded-3 mt-5 d-flex flex-column align-items-center justify-content-center" style={{'width':'100vw'}}>
-          <h2 className='mt-3 mx-2 fs-sm-4'>Welcome {user[0].name}</h2>
+          <h2 className='mt-3 mx-2'style={{'fontSize':'6vw'}}>Welcome {user[0].name}</h2>
           <Image src={user[0].picture} roundedCircle width="100"></Image>
           <hr className='border border-info border-1 w-75' />
-          <h3 className='mx-2 fs-sm-6'>{user[0].email}</h3>
-          <h3 className='mx-2 fs-sm-6'>{user[0].phone}</h3>
-          <h5 className='mx-2 fs-sm-6'>{user[0].address}</h5>
+          <h3 className='mx-2'style={{'fontSize':'5vw'}}>{user[0].email}</h3>
+          <h3 className='mx-2'style={{'fontSize':'5vw'}}>{user[0].phone}</h3>
+          <h5 className='mx-2'style={{'fontSize':'5vw'}}>{user[0].address}</h5>
           <div className="d-flex justify-content-center w-100">
             <button className="btn btn-info text-uppercase fw-bold m-3 " type="submit" onClick={() => editProfile()}>
               Edit Profile
