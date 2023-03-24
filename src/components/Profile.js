@@ -47,7 +47,7 @@ function Profile() {
         <div>
           <Form>
           <div className="d-flex justify-content-center w-100">
-          <div className="card m-5 d-flex justify-content-center w-50" style={{'width':'20vw'}}>
+          <div className="card m-5 d-flex justify-content-center" style={{'width':'20vw'}}>
             <div className="d-flex justify-content-center w-100">
               <Image src={user[0].picture} alt="Profile-Pic"
                   className="rounded-circle img-fluid my-4" style={{width: '115px'}}/>
@@ -62,7 +62,7 @@ function Profile() {
                 </div>
               </div>
               <hr className='border border-info border-1'/>
-              <div className="row">
+              <div className="row mb-0">
                 <div className="">
                   <p className="mb-0">Email</p>
                 </div>
@@ -71,7 +71,7 @@ function Profile() {
                 </div>
               </div>
               <hr className='border border-info border-1'/>
-              <div className="row">
+              <div className="row mb-0">
                 <div className="">
                   <p className="mb-0">Phone</p>
                 </div>
@@ -80,7 +80,7 @@ function Profile() {
                 </div>
               </div>
               <hr className='border border-info border-1'/>
-              <div className="row">
+              <div className="row mb-0">
                 <div className="">
                   <p className="mb-0">Age</p>
                 </div>
@@ -89,7 +89,7 @@ function Profile() {
                 </div>
               </div>
               <hr className='border border-info border-1'/>
-              <div className="row">
+              <div className="row mb-0">
                 <div className="">
                   <p className="mb-0">Address</p>
                 </div>
@@ -100,7 +100,7 @@ function Profile() {
               <hr className='border border-info border-1'/>
             </div>
             <div className="d-flex justify-content-center w-100">
-              <button className="btn btn-info text-uppercase fw-bold mb-3 w-25 px-0 " type="submit" onClick={()=>updateUser()}>
+              <button className="btn btn-info text-uppercase fw-bold mb-3 px-0 " sytle={{'width':'10vw'}} type="submit" onClick={()=>updateUser()}>
                 Update
               </button>
             </div>
