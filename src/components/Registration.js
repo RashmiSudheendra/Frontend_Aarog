@@ -39,7 +39,7 @@ function Registration() {
 
   return <>
     <div style={{backgroundColor: 'javascript(void)eee'}}>
-      <div className="container py-5">
+      <div className="container py-2">
         <div>
           <Form>
           <div className="d-flex justify-content-center w-100">
@@ -53,8 +53,8 @@ function Registration() {
                 <div className="">
                   <p className="mb-0 fw-bold">Full Name</p>
                 </div>
-                <div className="col-sm-9 mb-0">
-                <Form.Control id='userName' plaintext type="text" placeholder="Enter Name" defaultValue={user.name}/>
+                <div className="col-sm-9">
+                <Form.Control className='mb-0' id='userName' plaintext type="text" placeholder="Enter Name" defaultValue={user.name}/>
                 </div>
               </div>
               <hr className='border border-info border-1 mt-0'/>
