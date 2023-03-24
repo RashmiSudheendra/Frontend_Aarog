@@ -51,8 +51,8 @@ function Home() {
           <h2 className='mt-3 mx-2'style={{'fontSize':'2vw'}}>Welcome {user[0].name}</h2>
           <Image src={user[0].picture} roundedCircle width="100"></Image>
           <hr className='border border-info border-1 w-75' />
-          <h3 className='mx-2'style={{'fontSize':'1vw'}}>{user[0].email}</h3>
-          <h3 className='mx-2'style={{'fontSize':'1vw'}}>{user[0].phone}</h3>
+          <h3 className='mx-2'style={{'fontSize':'1.5vw'}}>{user[0].email}</h3>
+          <h3 className='mx-2'style={{'fontSize':'1.5vw'}}>{user[0].phone}</h3>
           <h5 className='mx-2'style={{'fontSize':'1vw'}}>{user[0].address}</h5>
           <div className="d-flex justify-content-center w-100">
             <button className="btn btn-info text-uppercase fw-bold m-3 " type="submit" onClick={() => editProfile()}>
