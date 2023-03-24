@@ -51,49 +51,49 @@ function Registration() {
             <div className="card-body">
               <div className="row">
                 <div className="">
-                  <p className="mb-0">Full Name</p>
+                  <p className="mb-0 fw-bold">Full Name</p>
                 </div>
-                <div className="col-sm-9">
+                <div className="col-sm-9 mb-0">
                 <Form.Control id='userName' plaintext type="text" placeholder="Enter Name" defaultValue={user.name}/>
                 </div>
               </div>
-              <hr className='border border-info border-1'/>
+              <hr className='border border-info border-1 mt-0'/>
               <div className="row">
                 <div className="">
-                  <p className="mb-0">Email</p>
+                  <p className="mb-0 fw-bold">Email</p>
                 </div>
                 <div className="">
                 <Form.Control id='userEmail' plaintext type="text" placeholder="Enter Email" defaultValue={user.email}/>
                 </div>
               </div>
-              <hr className='border border-info border-1'/>
+              <hr className='border border-info border-1 mt-0'/>
               <div className="row">
                 <div className="">
-                  <p className="mb-0">Phone</p>
+                  <p className="mb-0 fw-bold">Phone</p>
                 </div>
                 <div className="">
                 <Form.Control id='userPhone' plaintext type="number" placeholder="Enter Mobile" defaultValue={user.phone}/>
                 </div>
               </div>
-              <hr className='border border-info border-1'/>
+              <hr className='border border-info border-1 mt-0'/>
               <div className="row">
                 <div className="">
-                  <p className="mb-0">Age</p>
+                  <p className="mb-0 fw-bold">Age</p>
                 </div>
                 <div className="">
                 <Form.Control id='userAge' plaintext type="number" placeholder="Age" defaultValue={user.age}/>
                 </div>
               </div>
-              <hr className='border border-info border-1'/>
+              <hr className='border border-info border-1 mt-0'/>
               <div className="row">
                 <div className="">
-                  <p className="mb-0">Address</p>
+                  <p className="mb-0 fw-bold">Address</p>
                 </div>
                 <div className="">
                 <Form.Control id='userAddress' plaintext type="text" placeholder="Address Line" defaultValue={user.address}/>
                 </div>
               </div>
-              <hr className='border border-info border-1'/>
+              <hr className='border border-info border-1 mt-0'/>
             </div>
             <div className="d-flex justify-content-center w-100">
               <button className="btn btn-info text-uppercase fw-bold mb-3 w-25 px-0 " type="submit" onClick={()=>submitToHome()}>
