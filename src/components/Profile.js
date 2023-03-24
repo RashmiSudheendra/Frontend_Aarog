@@ -55,7 +55,7 @@ function Profile() {
             <div className="card-body">
               <div className="row">
                 <div className="">
-                  <p className="mb-0">Full Name</p>
+                  <p className="mb-0 fw-bold">Full Name</p>
                 </div>
                 <div className="col-sm-9">
                 <Form.Control id='userName' plaintext type="text" placeholder="Enter Name" defaultValue={user[0].name}/>
@@ -64,7 +64,7 @@ function Profile() {
               <hr className='border border-info border-1 mt-0'/>
               <div className="row">
                 <div className="">
-                  <p className="mb-0">Email</p>
+                  <p className="mb-0 fw-bold">Email</p>
                 </div>
                 <div className="">
                 <Form.Control id='userEmail' plaintext type="text" placeholder="Enter Email" defaultValue={user[0].email} readOnly/>
@@ -73,7 +73,7 @@ function Profile() {
               <hr className='border border-info border-1 mt-0'/>
               <div className="row">
                 <div className="">
-                  <p className="mb-0">Phone</p>
+                  <p className="mb-0 fw-bold">Phone</p>
                 </div>
                 <div className="">
                 <Form.Control id='userPhone' plaintext type="number" placeholder="Enter Mobile" defaultValue={user[0].phone}/>
@@ -82,7 +82,7 @@ function Profile() {
               <hr className='border border-info border-1 mt-0'/>
               <div className="row">
                 <div className="">
-                  <p className="mb-0">Age</p>
+                  <p className="mb-0 fw-bold">Age</p>
                 </div>
                 <div className="">
                 <Form.Control id='userAge' plaintext type="number" placeholder="Age" defaultValue={user[0].age}/>
@@ -91,7 +91,7 @@ function Profile() {
               <hr className='border border-info border-1 mt-0'/>
               <div className="row">
                 <div className="">
-                  <p className="mb-0">Address</p>
+                  <p className="mb-0 fw-bold">Address</p>
                 </div>
                 <div className="">
                 <Form.Control id='userAddress' plaintext type="text" placeholder="Address Line" defaultValue={user[0].address}/>
