@@ -54,7 +54,7 @@ function Registration() {
                   <p className="mb-0 fw-bold">Full Name</p>
                 </div>
                 <div className="col-sm-9">
-                <Form.Control className='mb-0' id='userName' plaintext type="text" placeholder="Enter Name" defaultValue={user.name}/>
+                <Form.Control id='userName' plaintext type="text" placeholder="Enter Name" defaultValue={user.name}/>
                 </div>
               </div>
               <hr className='border border-info border-1 mt-0'/>
