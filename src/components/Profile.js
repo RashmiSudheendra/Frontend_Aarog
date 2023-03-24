@@ -47,7 +47,7 @@ function Profile() {
         <div>
           <Form>
           <div className="d-flex justify-content-center w-100">
-          <div className="card m-5 d-flex justify-content-center" style={{'width':'30vw'}}>
+          <div className="card m-5 d-flex justify-content-center w-50">
             <div className="d-flex justify-content-center w-100">
               <Image src={user[0].picture} alt="Profile-Pic"
                   className="rounded-circle img-fluid my-4" style={{width: '115px'}}/>
