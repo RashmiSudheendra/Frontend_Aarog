@@ -43,11 +43,11 @@ function Profile() {
 
   return <>
     <div style={{backgroundColor: 'javascript(void)eee'}}>
-      <div className="container py-5">
+      <div className="container py-2">
         <div>
           <Form>
           <div className="d-flex justify-content-center w-100">
-          <div className="card m-5 d-flex justify-content-center w-50">
+          <div className="card m-5 d-flex justify-content-center w-50" style={{'width':'35vw'}}>
             <div className="d-flex justify-content-center w-100">
               <Image src={user[0].picture} alt="Profile-Pic"
                   className="rounded-circle img-fluid my-4" style={{width: '115px'}}/>
