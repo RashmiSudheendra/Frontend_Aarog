@@ -47,7 +47,7 @@ function Home() {
   return <>
     <div className="container"> 
       <div className='d-flex flex-row align-item-center justify-content-center m-5'>
-        <div className="card border-0 shadow rounded-3 mt-5 d-flex flex-column align-items-center justify-content-center" style={{'width':'100vw'}}>
+        <div className="card border-0 shadow rounded-3 mt-5 mx-2 d-flex flex-column align-items-center justify-content-center" style={{'width':'100vw'}}>
           <h2 className='mt-3'>Welcome {user[0].name}</h2>
           <Image src={user[0].picture} roundedCircle width="100"></Image>
           <hr className='border border-info border-1 w-75' />
